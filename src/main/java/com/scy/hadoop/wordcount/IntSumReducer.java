@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
-
+//hadoop
 public class IntSumReducer extends
 		Reducer<Text, IntWritable, Text, IntWritable> {
 	private IntWritable result = new IntWritable();
